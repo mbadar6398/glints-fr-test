@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NewTopic from './NewTopic';
 import Topic from './Topic';
 
 class App extends Component {
@@ -7,7 +8,14 @@ class App extends Component {
             <main>
                 <section className="container">
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-8 col-lg-6">
+                        <div className="col-6">
+                            <NewTopic/>
+                        </div>
+                    </div>
+                </section>
+                <section className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-6">
                             <Topic/>
                         </div>
                     </div>
